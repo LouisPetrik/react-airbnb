@@ -6,8 +6,8 @@ module.exports = (distRoot, optimize) => ({
   entry: './src/index.js',
   output: {
     path: distRoot,
-    filename: optimize ? 'react-bootstrap.min.js' : 'react-bootstrap.js',
-    library: 'ReactBootstrap',
+    filename: optimize ? 'react-airbnb.min.js' : 'react-airbnb.js',
+    library: 'ReactAirbnb',
     libraryTarget: 'umd',
   },
   module: {
