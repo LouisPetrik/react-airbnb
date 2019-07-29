@@ -1,7 +1,7 @@
 {
   "name": "react-airbnb",
   "version": "1.1.2",
-  "description": "Boilerplate for building a component library for Gatsby, React.js & Next.js",
+  "description": "A component library for React.js, Gatsby & Next.js, inspired by Airbnb. ",
   "sideEffects": false,
   "main": "lib/index.js",
   "module": "lib/es/index.js",
