@@ -1,11 +1,7 @@
 {
   "name": "react-airbnb",
-  "version": "1.1.1",
-  "description": "Bootstrap 4 components built with React",
-  "repository": {
-    "type": "git",
-    "url": "react-bootstrap/react-bootstrap"
-  },
+  "version": "1.1.2",
+  "description": "Boilerplate for building a component library for Gatsby, React.js & Next.js",
   "sideEffects": false,
   "main": "lib/index.js",
   "module": "lib/es/index.js",
@@ -52,7 +48,7 @@
     "react-component",
     "bootstrap"
   ],
-  "author": "Stephen J. Collings <stevoland@gmail.com>",
+  "author": "Louis Petrik <louispetrik@aol.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.6",
