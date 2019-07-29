@@ -1,7 +1,7 @@
 {
-  "name": "react-airbnb",
+  "name": "react-component-library-builder",
   "version": "1.1.2",
-  "description": "A component library for React.js, Gatsby & Next.js, inspired by Airbnb. ",
+  "description": "",
   "sideEffects": false,
   "main": "lib/index.js",
   "module": "lib/es/index.js",
@@ -43,10 +43,7 @@
     "es"
   ],
   "keywords": [
-    "react",
-    "ecosystem-react",
-    "react-component",
-    "bootstrap"
+    "react"
   ],
   "author": "Louis Petrik <louispetrik@aol.com>",
   "license": "MIT",

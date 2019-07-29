@@ -4,7 +4,7 @@ export default class Bar extends Component {
   render() {
     return (
       <div>
-        <h1>Bar.js</h1>
+        <h1>This is a simple Headline bar</h1>
       </div>
     );
   }

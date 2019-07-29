@@ -4,7 +4,7 @@ export default class Button extends Component {
   render() {
     return (
       <div>
-        <button>hallowelt!</button>
+        <button>Simple Button</button>
       </div>
     );
   }
