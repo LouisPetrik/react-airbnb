@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - node
+
+jobs:
+  include:
+    - addons:
+        chrome: stable
+      env: BROWSER=ChromeCi
+    - addons:
+        firefox: latest
+      env: BROWSER=Firefox
+
+services:
+  - xvfb
+
+cache:
+  yarn: true
+  npm: true
+  directories:
+    - www/node_modules
+
+install:
+  - yarn bootstrap
+
+after_success:
+  - node_modules/.bin/codecov
+
+branches:
+  only:
+    - master
+    - next
